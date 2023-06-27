@@ -1,0 +1,15 @@
+GET http://localhost:3009/players/
+###
+
+POST http://localhost:3009/players/
+Content-Type: application/json
+
+{
+    "playerName":"Varun",
+    "jerseyNumber":15,
+    "role":"bower"
+}
+###
+
+GET http://localhost:3009/players/1/
+###
